@@ -1,171 +1,232 @@
 
-### [bespin.png](bespin.png)
+### [The Bespin Theme](../colorschemes/bespin.conf)
 
-![bespin.png](bespin.png "bespin.png")
+[![bespin.png](bespin.png)](bespin.png "The Bespin Theme")
 
+[The Bespin Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/bespin.conf)
 
-### [black.png](black.png)
 
-![black.png](black.png "black.png")
+### [The Black Theme](../colorschemes/black.conf)
 
+[![black.png](black.png)](black.png "The Black Theme")
 
-### [darcula.png](darcula.png)
+[The Black Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/black.conf)
 
-![darcula.png](darcula.png "darcula.png")
 
+### [The Darcula Theme](../colorschemes/darcula.conf)
 
-### [dark-colors.png](dark-colors.png)
+[![darcula.png](darcula.png)](darcula.png "The Darcula Theme")
 
-![dark-colors.png](dark-colors.png "dark-colors.png")
+[The Darcula Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/darcula.conf)
 
 
-### [dark-fruit-salad.png](dark-fruit-salad.png)
+### [The DarkColors Theme](../colorschemes/dark-colors.conf)
 
-![dark-fruit-salad.png](dark-fruit-salad.png "dark-fruit-salad.png")
+[![dark-colors.png](dark-colors.png)](dark-colors.png "The DarkColors Theme")
 
+[The DarkColors Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/dark-colors.conf)
 
-### [dark.png](dark.png)
 
-![dark.png](dark.png "dark.png")
+### [The DarkFruitSalad Theme](../colorschemes/dark-fruit-salad.conf)
 
+[![dark-fruit-salad.png](dark-fruit-salad.png)](dark-fruit-salad.png "The DarkFruitSalad Theme")
 
-### [delt-dark.png](delt-dark.png)
+[The DarkFruitSalad Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/dark-fruit-salad.conf)
 
-![delt-dark.png](delt-dark.png "delt-dark.png")
 
+### [The Dark Theme](../colorschemes/dark.conf)
 
-### [epsilon.png](epsilon.png)
+[![dark.png](dark.png)](dark.png "The Dark Theme")
 
-![epsilon.png](epsilon.png "epsilon.png")
+[The Dark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/dark.conf)
 
 
-### [fluffy.png](fluffy.png)
+### [The DeltDark Theme](../colorschemes/delt-dark.conf)
 
-![fluffy.png](fluffy.png "fluffy.png")
+[![delt-dark.png](delt-dark.png)](delt-dark.png "The DeltDark Theme")
 
+[The DeltDark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/delt-dark.conf)
 
-### [gedit.png](gedit.png)
 
-![gedit.png](gedit.png "gedit.png")
+### [The Epsilon Theme](../colorschemes/epsilon.conf)
 
+[![epsilon.png](epsilon.png)](epsilon.png "The Epsilon Theme")
 
-### [github.png](github.png)
+[The Epsilon Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/epsilon.conf)
 
-![github.png](github.png "github.png")
 
+### [The Fluffy Theme](../colorschemes/fluffy.conf)
 
-### [himbeere.png](himbeere.png)
+[![fluffy.png](fluffy.png)](fluffy.png "The Fluffy Theme")
 
-![himbeere.png](himbeere.png "himbeere.png")
+[The Fluffy Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/fluffy.conf)
 
 
-### [inkpot.png](inkpot.png)
+### [The Gedit Theme](../colorschemes/gedit.conf)
 
-![inkpot.png](inkpot.png "inkpot.png")
+[![gedit.png](gedit.png)](gedit.png "The Gedit Theme")
 
+[The Gedit Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/gedit.conf)
 
-### [mc.png](mc.png)
 
-![mc.png](mc.png "mc.png")
+### [The Github Theme](../colorschemes/github.conf)
 
+[![github.png](github.png)](github.png "The Github Theme")
 
-### [metallic-bottle.png](metallic-bottle.png)
+[The Github Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/github.conf)
 
-![metallic-bottle.png](metallic-bottle.png "metallic-bottle.png")
 
+### [The Himbeere Theme](../colorschemes/himbeere.conf)
 
-### [monokai.png](monokai.png)
+[![himbeere.png](himbeere.png)](himbeere.png "The Himbeere Theme")
 
-![monokai.png](monokai.png "monokai.png")
+[The Himbeere Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/himbeere.conf)
 
 
-### [notepad-plus-plus.png](notepad-plus-plus.png)
+### [The Inkpot Theme](../colorschemes/inkpot.conf)
 
-![notepad-plus-plus.png](notepad-plus-plus.png "notepad-plus-plus.png")
+[![inkpot.png](inkpot.png)](inkpot.png "The Inkpot Theme")
 
+[The Inkpot Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/inkpot.conf)
 
-### [oblivion2.png](oblivion2.png)
 
-![oblivion2.png](oblivion2.png "oblivion2.png")
+### [The Mc Theme](../colorschemes/mc.conf)
 
+[![mc.png](mc.png)](mc.png "The Mc Theme")
 
-### [pygments.png](pygments.png)
+[The Mc Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/mc.conf)
 
-![pygments.png](pygments.png "pygments.png")
 
+### [The MetallicBottle Theme](../colorschemes/metallic-bottle.conf)
 
-### [railcasts2.png](railcasts2.png)
+[![metallic-bottle.png](metallic-bottle.png)](metallic-bottle.png "The MetallicBottle Theme")
 
-![railcasts2.png](railcasts2.png "railcasts2.png")
+[The MetallicBottle Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/metallic-bottle.conf)
 
 
-### [retro.png](retro.png)
+### [The Monokai Theme](../colorschemes/monokai.conf)
 
-![retro.png](retro.png "retro.png")
+[![monokai.png](monokai.png)](monokai.png "The Monokai Theme")
 
+[The Monokai Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/monokai.conf)
 
-### [screenshot-missing.png](screenshot-missing.png)
 
-![screenshot-missing.png](screenshot-missing.png "screenshot-missing.png")
+### [The NotepadPlusPlus Theme](../colorschemes/notepad-plus-plus.conf)
 
+[![notepad-plus-plus.png](notepad-plus-plus.png)](notepad-plus-plus.png "The NotepadPlusPlus Theme")
 
-### [sleepy-pastel.png](sleepy-pastel.png)
+[The NotepadPlusPlus Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/notepad-plus-plus.conf)
 
-![sleepy-pastel.png](sleepy-pastel.png "sleepy-pastel.png")
 
+### [The Oblivion2 Theme](../colorschemes/oblivion2.conf)
 
-### [slushpoppies.png](slushpoppies.png)
+[![oblivion2.png](oblivion2.png)](oblivion2.png "The Oblivion2 Theme")
 
-![slushpoppies.png](slushpoppies.png "slushpoppies.png")
+[The Oblivion2 Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/oblivion2.conf)
 
 
-### [solarized-dark.png](solarized-dark.png)
+### [The Pygments Theme](../colorschemes/pygments.conf)
 
-![solarized-dark.png](solarized-dark.png "solarized-dark.png")
+[![pygments.png](pygments.png)](pygments.png "The Pygments Theme")
 
+[The Pygments Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/pygments.conf)
 
-### [solarized-light.png](solarized-light.png)
 
-![solarized-light.png](solarized-light.png "solarized-light.png")
+### [The Railcasts2 Theme](../colorschemes/railcasts2.conf)
 
+[![railcasts2.png](railcasts2.png)](railcasts2.png "The Railcasts2 Theme")
 
-### [spyder-dark.png](spyder-dark.png)
+[The Railcasts2 Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/railcasts2.conf)
 
-![spyder-dark.png](spyder-dark.png "spyder-dark.png")
 
+### [The Retro Theme](../colorschemes/retro.conf)
 
-### [steampunk.png](steampunk.png)
+[![retro.png](retro.png)](retro.png "The Retro Theme")
 
-![steampunk.png](steampunk.png "steampunk.png")
+[The Retro Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/retro.conf)
 
 
-### [tango-dark.png](tango-dark.png)
+### [The SleepyPastel Theme](../colorschemes/sleepy-pastel.conf)
 
-![tango-dark.png](tango-dark.png "tango-dark.png")
+[![sleepy-pastel.png](sleepy-pastel.png)](sleepy-pastel.png "The SleepyPastel Theme")
 
+[The SleepyPastel Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/sleepy-pastel.conf)
 
-### [tango-light.png](tango-light.png)
 
-![tango-light.png](tango-light.png "tango-light.png")
+### [The Slushpoppies Theme](../colorschemes/slushpoppies.conf)
 
+[![slushpoppies.png](slushpoppies.png)](slushpoppies.png "The Slushpoppies Theme")
 
-### [tinge.png](tinge.png)
+[The Slushpoppies Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/slushpoppies.conf)
 
-![tinge.png](tinge.png "tinge.png")
 
+### [The SolarizedDark Theme](../colorschemes/solarized-dark.conf)
 
-### [ubuntu.png](ubuntu.png)
+[![solarized-dark.png](solarized-dark.png)](solarized-dark.png "The SolarizedDark Theme")
 
-![ubuntu.png](ubuntu.png "ubuntu.png")
+[The SolarizedDark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/solarized-dark.conf)
 
 
-### [vibrant-ink.png](vibrant-ink.png)
+### [The SolarizedLight Theme](../colorschemes/solarized-light.conf)
 
-![vibrant-ink.png](vibrant-ink.png "vibrant-ink.png")
+[![solarized-light.png](solarized-light.png)](solarized-light.png "The SolarizedLight Theme")
 
+[The SolarizedLight Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/solarized-light.conf)
 
-### [zenburn.png](zenburn.png)
 
-![zenburn.png](zenburn.png "zenburn.png")
+### [The SpyderDark Theme](../colorschemes/spyder-dark.conf)
+
+[![spyder-dark.png](spyder-dark.png)](spyder-dark.png "The SpyderDark Theme")
+
+[The SpyderDark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/spyder-dark.conf)
+
+
+### [The Steampunk Theme](../colorschemes/steampunk.conf)
+
+[![steampunk.png](steampunk.png)](steampunk.png "The Steampunk Theme")
+
+[The Steampunk Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/steampunk.conf)
+
+
+### [The TangoDark Theme](../colorschemes/tango-dark.conf)
+
+[![tango-dark.png](tango-dark.png)](tango-dark.png "The TangoDark Theme")
+
+[The TangoDark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/tango-dark.conf)
+
+
+### [The TangoLight Theme](../colorschemes/tango-light.conf)
+
+[![tango-light.png](tango-light.png)](tango-light.png "The TangoLight Theme")
+
+[The TangoLight Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/tango-light.conf)
+
+
+### [The Tinge Theme](../colorschemes/tinge.conf)
+
+[![tinge.png](tinge.png)](tinge.png "The Tinge Theme")
+
+[The Tinge Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/tinge.conf)
+
+
+### [The Ubuntu Theme](../colorschemes/ubuntu.conf)
+
+[![ubuntu.png](ubuntu.png)](ubuntu.png "The Ubuntu Theme")
+
+[The Ubuntu Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/ubuntu.conf)
+
+
+### [The VibrantInk Theme](../colorschemes/vibrant-ink.conf)
+
+[![vibrant-ink.png](vibrant-ink.png)](vibrant-ink.png "The VibrantInk Theme")
+
+[The VibrantInk Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/vibrant-ink.conf)
+
+
+### [The Zenburn Theme](../colorschemes/zenburn.conf)
+
+[![zenburn.png](zenburn.png)](zenburn.png "The Zenburn Theme")
+
+[The Zenburn Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/zenburn.conf)
 
 
