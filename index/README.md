@@ -4,7 +4,7 @@ Geany Themes Index File README
 The `index.json` file is auto-generated using the `make index` command.
 The `index` rule of the Makefile runs the `scripts/mkindex.py` script
 which reads the colour schemes' info, generates screenshot and download
-URLs, base64 encoded 64x64 thumbnails and stores it all into a JSON
+URLs, base64 encoded 128x128 thumbnails and stores it all into a JSON
 formatted text file.
 
 File Format
@@ -73,12 +73,12 @@ image.
 
 #### thumbnail
 
-This is a thumbnail image, 64 pixels wide and 64 pixels high, in PNG
+This is a thumbnail image, 128 pixels wide and 128 pixels high, in PNG
 format, base64 encoded (for storing in text file). This is a small icon
 of the preview screenshot suitable for displaying for example in a GUI
 list of schemes. This maybe be an empty string if the colour scheme
 doesn't have a screenshot or it maybe be a generic "screenshit missing"
-icon that is 64 pixels wide and tall.
+icon that is 128 pixels wide and tall.
 
 #### version
 
