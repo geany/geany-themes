@@ -23,7 +23,7 @@ up first.
 1. Extract the zip file, tarball or checkout with Git to a local
 directory.
 1. To install, either
-    * run `install.sh` for automatic instalation or
+    * run `install.sh` for automatic installation or
     * Copy all of the `*.conf` files from the `colorschemes`folder
     into the `~/.config/geany/colorschemes/`.
     Create the `~/.config/geany/colorschemes/`directory if it
@@ -51,7 +51,7 @@ all other cases, consult the official Geany documentation.
 Other Themes
 ------------
 
-You can also also sometimes find bleeding edge themes which have yet to
+You can also sometimes find bleeding edge themes which have yet to
 be fully integrated into the repository by looking at the
 [Issues on Github][issues] labelled with the [`new-theme`][new-themes] label.
 There may also be some unofficial themes on [the wiki][wiki-themes].
@@ -74,7 +74,7 @@ old filetypes out of the way, copy the ones you want to customize from
 Geany's system data folder and hand-copy over the non-`[styling]`
 groups from the old filetypes file into the new one.
 
-[geany]: http://www.geany.org
+[geany]: https://www.geany.org
 [scrn]: https://github.com/geany/geany-themes/tree/master/screenshots
 [issues]: https://github.com/geany/geany-themes/issues?q=is%3Aopen
 [new-themes]: https://github.com/geany/geany-themes/labels/new-theme
