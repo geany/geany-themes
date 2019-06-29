@@ -14,6 +14,7 @@ import base64
 import StringIO
 from PIL import Image, ImageDraw, ImageOps, ImageFilter
 
+THUMBNAIL_SIZE = (128, 128)
 SCREENSHOT_BASE = 'https://raw.github.com/geany/geany-themes/master/screenshots/'
 SCHEMES_BASE = 'https://raw.github.com/geany/geany-themes/master/colorschemes/'
 
@@ -36,7 +37,7 @@ def generate_thumbnail(conf_fn, screenshot_dir='screenshots'):
   else:
     img = Image.open(png_file)
     img = img.crop((2,2,img.size[1]-2,img.size[1]-2))
-    img.thumbnail((64,64), Image.ANTIALIAS)
+    img.thumbnail(THUMBNAIL_SIZE, Image.ANTIALIAS)
 #-- set to True to save thumbs into screenshots/.thumbs
     do_thumbs = False
     if do_thumbs:
