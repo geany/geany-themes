@@ -23,7 +23,7 @@ up first.
 1. Extract the zip file, tarball or checkout with Git to a local
 directory.
 1. To install, either
-    * run `install.sh` for automatic instalation or
+    * run `install.sh` for automatic installation or
     * Copy all of the `*.conf` files from the `colorschemes`folder
     into the `~/.config/geany/colorschemes/`.
     Create the `~/.config/geany/colorschemes/`directory if it
