@@ -125,6 +125,13 @@
 [The Oblivion2 Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/oblivion2.conf)
 
 
+### [The One Dark Theme](../colorschemes/one-dark.conf)
+
+[![one-dark.png](one-dark.png)](one-dark.png "The One Dark Theme")
+
+[The One Dark Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/one-dark.conf)
+
+
 ### [The Pygments Theme](../colorschemes/pygments.conf)
 
 [![pygments.png](pygments.png)](pygments.png "The Pygments Theme")
@@ -228,5 +235,3 @@
 [![zenburn.png](zenburn.png)](zenburn.png "The Zenburn Theme")
 
 [The Zenburn Theme Direct Download](https://raw.githubusercontent.com/geany/geany-themes/master/colorschemes/zenburn.conf)
-
-
