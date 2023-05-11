@@ -156,6 +156,67 @@ of the tree.
 If you don't have GNU make (ex. on Windows), don't worry about doing
 this step, it's entirely trivial for me to do it.
 
+IMPORTANT NOTE 2023-05-11 by Evgueni Antonov (github: StrayFeral): 
+The Python code in scripts sub-directory
+is strictly Python2, which was not clear initially to me, neither it
+was specified. However Python 2 is officially "sunseted" as of
+January 1, 2020. I thought small adjustments would make it work on
+Python 3.10, however it looks there are more differences on how the
+modules work. Therefore, to update the meta-data I personally pulled
+the official Python2 container from the Docker repo, instantiated a
+container in interactive mode, put the code there and ran `make index`
+on the container. In short, this is what one could do in 2023:
+
+The folowing is a bash session on Lubuntu Jammy 22.04 LTS, Docker 
+version 23.0.6, build ef23cbc (for clarity, I left only the commands,
+not the output). If you already have Python2 on your system, you
+won't need to do all this. However the code would need a Python 3
+migration sooner or later and I don't plan to maintain a Python 2
+eco-system on my machine, so I got it as a container environment:
+
+```
+sudo docker image pull python:2
+sudo docker run -it python:2 bash
+
+# From now on, the rest is executed on the container shell.
+# By the way the container is a Debian 10 image with Python 2.7.18
+
+apt update
+apt upgrade
+apt install wget
+
+# This however does not seem to work, maybe it is only the Python 3 version
+apt install python-pil
+
+python -m pip install --upgrade pip
+
+# Pillow is a fork of PIL. In my case PIL did not worked
+pip install pillow
+
+cd /tmp
+wget https://github.com/geany/geany-themes/archive/refs/heads/master.zip
+unzip master.zip
+cd geany-themes-master/
+
+# Now copy-paste your new theme_name.conf in colorschemes/
+# and then your screenshot_name.png in screenshots/
+
+make clean
+make index
+
+# In 2023 the folowing is a bit barbarian, I know. But it works.
+# You can go in a better way if you mount your native filesystem to
+# the container, but I was in a hurry and as I said - it works.
+
+# So now we simply cat the files we need and we copy-paste them
+# in our native filesystem:
+cat index.json.md5
+cat index.json # This one is large !
+```
+
+Now as you finally have a properly generated JSON indexes, you can
+commit to the repo.
+
 Making a Pull Request
 ---------------------
 

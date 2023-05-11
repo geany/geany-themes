@@ -8,7 +8,7 @@ Note: requires Python Imaging Library (PIL), ex. 'python-imaging' Debian package
 import os
 import sys
 import json
-from configparser import ConfigParser
+import ConfigParser
 import hashlib
 import base64
 import StringIO
