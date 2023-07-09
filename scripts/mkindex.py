@@ -5,13 +5,15 @@ Creates a JSON index file listing information about all of the color schemes.
 Note: requires Python Imaging Library (PIL), ex. 'python-imaging' Debian package.
 '''
 
+# TODO this script needs to be ported to Python 3 properly
+
 import os
 import sys
 import json
-import ConfigParser
+from configparser import ConfigParser, Error as ConfigParserError
 import hashlib
 import base64
-import StringIO
+from io import BytesIO, StringIO
 from PIL import Image, ImageDraw, ImageOps, ImageFilter
 
 THUMBNAIL_SIZE = (128, 128)
@@ -19,8 +21,10 @@ SCREENSHOT_BASE = 'https://raw.github.com/geany/geany-themes/master/screenshots/
 SCHEMES_BASE = 'https://raw.github.com/geany/geany-themes/master/colorschemes/'
 
 def get_option(cp, group, key, default=None):
-    try: return cp.get(group, key)
-    except ConfigParser.Error: return default
+    try:
+        return cp.get(group, key)
+    except ConfigParserError:
+        return default
 
 def generate_thumbnail(conf_fn, screenshot_dir='screenshots'):
   base = os.path.splitext(os.path.basename(conf_fn))[0]
@@ -29,11 +33,11 @@ def generate_thumbnail(conf_fn, screenshot_dir='screenshots'):
   if not os.path.exists(png_file):
     png_file = os.path.join(screenshot_dir, 'screenshot-missing.png')
     img = Image.open(png_file)
-    output = StringIO.StringIO()
+    output = BytesIO()
     img.save(output, "PNG", optimize=True)
     data = base64.b64encode(output.getvalue())
     output.close()
-    return data
+    return data.decode()
   else:
     img = Image.open(png_file)
     img = img.crop((2,2,img.size[1]-2,img.size[1]-2))
@@ -49,12 +53,12 @@ def generate_thumbnail(conf_fn, screenshot_dir='screenshots'):
       thumb_fn = os.path.join(thumb_dir, base + '.png')
       img.save(thumb_fn, "PNG", optimize=True)
 #--
-    output = StringIO.StringIO()
+    output = BytesIO()
     img.save(output, "PNG", optimize=True)
     data = base64.b64encode(output.getvalue())
     output.close()
 
-  return data
+  return data.decode()
 
 def create_index(themes_dir, screenshot_dir='screenshots'):
     data = {}
@@ -65,7 +69,7 @@ def create_index(themes_dir, screenshot_dir='screenshots'):
             continue
 
         conf_file = os.path.join(themes_dir, conf_file)
-        cp = ConfigParser.ConfigParser()
+        cp = ConfigParser()
         cp.read(conf_file)
 
         if not cp.has_section('theme_info'):
@@ -80,7 +84,7 @@ def create_index(themes_dir, screenshot_dir='screenshots'):
 
         png_file = os.path.join(screenshot_dir, scheme_name + '.png')
         if os.path.isfile(png_file):
-          png_hash = hashlib.md5(open(png_file).read()).hexdigest()
+          png_hash = hashlib.md5(open(png_file, 'rb').read()).hexdigest()
         else:
           png_hash = ''
 
@@ -100,7 +104,7 @@ def create_index(themes_dir, screenshot_dir='screenshots'):
             'colorscheme': '%s%s.conf' % (SCHEMES_BASE, scheme_name),
             'thumbnail': generate_thumbnail(conf_file, screenshot_dir),
             'screen_hash': png_hash,
-            'scheme_hash': hashlib.md5(open(conf_file).read()).hexdigest(),
+            'scheme_hash': hashlib.md5(open(conf_file, 'rb').read()).hexdigest(),
             'compat': versions,
         }
 
