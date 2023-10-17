@@ -13,12 +13,12 @@ Will ultimately result in getting your questions answered or forwarded
 to the appropriate person.
 
 abc-dark.conf
------------
-  inonehp <inonehp(at)gmail(dot)com>
+-------------
+ *inonehp <inonehp(at)gmail(dot)com>
 
 abc-light.conf
------------
-  inonehp <inonehp(at)gmail(dot)com>
+--------------
+ *inonehp <inonehp(at)gmail(dot)com>
 
 bespin.conf
 -----------
@@ -30,7 +30,7 @@ black.conf
  *Paul Lenton (EckoZero) <lentonp(at)gmail(dot)com>
 
 cyber-sugar.conf
-----------
+----------------
  Yegen T. (pingu)
  *Matthew Brush <matt(at)geany(dot)org>
 
@@ -49,7 +49,7 @@ dark-fruit-salad.conf
  *Matthew Brush <matt(at)geany(dot)org> (port to newer Geany)
 
 dark-colors.conf
----------------------
+----------------
   Yannis Kontochristopoulos <ikontochris(at)gmail(dot)com>
  *Matthew Brush <matt(at)geany(dot)org> (port to Geany)
 
@@ -99,9 +99,9 @@ kugel.conf
 
 matcha.conf
 -----------
- Axel Amores <dkzenzuri(at)gmail(dot)com>
+ *Axel Amores <dkzenzuri(at)gmail(dot)com>
 
- mc.conf
+mc.conf
 -------
  *Henrik Pauli <ralesk(at)drangolin(dot)net>
 
@@ -128,7 +128,7 @@ one-dark.conf
  *Jefferson Gonzalez <jgmdev(at)gmail(dot)com> (port to Geany)
 
 pygments.conf
---------------
+-------------
  *Nicolas Holvoët <contact(at)nhrx(dot)org> (port to Geany)
 
 railscasts2.conf
@@ -162,7 +162,7 @@ spyder-dark.conf
  *Paul Thompson <redoubts(at)gmail(dot)com>
 
 steampunk.conf
---------------------
+--------------
  *Baptiste Darthenay <geany(dot)batisteo(at)recursor(dot)net>
 
 tango-dark.conf
