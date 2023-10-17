@@ -41,7 +41,7 @@ def generate_thumbnail(conf_fn, screenshot_dir='screenshots'):
   else:
     img = Image.open(png_file)
     img = img.crop((2,2,img.size[1]-2,img.size[1]-2))
-    img.thumbnail(THUMBNAIL_SIZE, Image.ANTIALIAS)
+    img.thumbnail(THUMBNAIL_SIZE, Image.Resampling.LANCZOS)
 #-- set to True to save thumbs into screenshots/.thumbs
     do_thumbs = False
     if do_thumbs:
