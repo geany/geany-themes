@@ -20,7 +20,7 @@ bespin.conf
 black.conf
 ----------
  *Paul Lenton (EckoZero) <lentonp(at)gmail(dot)com>
- 
+
 cyber-sugar.conf
 ----------
  Yegen T. (pingu)
@@ -89,7 +89,11 @@ kugel.conf
 ----------
  *Thomas Martitz <thomas.martitz(at)student.htw-berlin(dot)de>
 
-mc.conf
+matcha.conf
+-----------
+ Axel Amores <dkzenzuri(at)gmail(dot)com>
+
+ mc.conf
 -------
  *Henrik Pauli <ralesk(at)drangolin(dot)net>
 
