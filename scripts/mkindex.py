@@ -91,6 +91,9 @@ def create_index(themes_dir, screenshot_dir='screenshots'):
         compat = get_option(cp, 'theme_info', 'compat', '0.0.0')
         versions = []
         for ver in compat.split(';'):
+          if not ver:
+              continue
+
           ver = [int(v) for v in ver.split('.')] + [0]*3
           ver = '.'.join([ str(v) for v in ver[0:3] ])
           versions.append(ver)
