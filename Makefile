@@ -6,7 +6,6 @@ THEMES           = $(wildcard colorschemes/*.conf)
 COLORSCHEME_DIR  = ${HOME}/.config/geany/colorschemes
 UNINSTALL_THEMES = $(addprefix $(COLORSCHEME_DIR)/, $(notdir $(THEMES)))
 THEMES_VERSION   = 1.24
-MISMATCH_MESSAGE = Warning: Possible wrong version of Geany installed
 ARCHIVE_NAME     = geany-themes-$(THEMES_VERSION).tar.bz2
 ARCHIVE_TEMP_DIR = geany-themes-$(THEMES_VERSION)
 
