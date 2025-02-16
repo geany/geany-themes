@@ -32,6 +32,10 @@ bespin.conf
 black.conf
 ----------
  *Paul Lenton (EckoZero) <lentonp(at)gmail(dot)com>
+ 
+carbonfox.conf
+----------
+ *Drew Griffin (JustAGuy Linux) <jag(at)justaguylinux(dot)com>
 
 cyber-sugar.conf
 ----------------
@@ -130,6 +134,10 @@ oblivion2.conf
 --------------
   Bernhard Posselt <bernhard.posselt(at)gmx(dot)at>
  *Matthew Brush <matt(at)geany(dot)org> (port to newer Geany)
+ 
+octagon.conf
+----------
+ *Drew Griffin (JustAGuy Linux) <jag(at)justaguylinux(dot)com>
 
 one-dark.conf
 --------------
@@ -191,6 +199,10 @@ tinge.conf
 ubuntu.conf
 -----------
  *James Brierley <jmb8710(at)gmail(dot)com>
+ 
+underthesea.conf
+----------
+ *Drew Griffin (JustAGuy Linux) <jag(at)justaguylinux(dot)com>
 
 vibrant-ink.conf
 ----------------
